@@ -1,0 +1,44 @@
+h1{
+    color:rgb(158, 150, 150);
+    background-color:rgb(253, 210, 20);
+    text-align:center ;
+    text-decoration:rgb(172, 34, 16) underline;
+    text-transform: uppercase;
+    text-shadow:rgb(181, 221, 120) 2px 2px 5px;
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 50%;
+}
+body{
+    background-image:url ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-indent:20px;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    list-style-type: none;
+    color:gold;
+}
+img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+h2{
+    color:rgb(20, 14, 14);
+    
+    text-align:center ;
+    text-decoration:rgb(172, 149, 16) underline;
+    text-transform: uppercase;
+    text-shadow:rgb(181, 221, 120) 2px 2px 5px;
+    font-style: italic;
+    font-size: 75;
+    text-shadow: 50%;
+
+}
