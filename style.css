@@ -25,10 +25,11 @@ p{
     color:gold;
 }
 img{
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 700%;
     border-radius: 50%;
     border: 5px solid red;
+    
 }
 h2{
     color:rgb(20, 14, 14);
