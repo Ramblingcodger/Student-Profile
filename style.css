@@ -26,10 +26,10 @@ p{
 }
 img{
     width: 70%;
-    height: 70%;
+    height: auto;
     border-radius: 0%;
     border: 5px solid red;
-    size:70%;
+    size:auto;
     
 }
 h2{
