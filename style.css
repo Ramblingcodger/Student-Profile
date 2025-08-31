@@ -1,6 +1,6 @@
 h1{
     color:rgb(158, 150, 150);
-    background-color:rgb(253, 210, 20);
+    background-color: slategrey;
     text-align:center ;
     text-decoration:rgb(172, 34, 16) underline;
     text-transform: uppercase;
@@ -10,37 +10,53 @@ h1{
     text-shadow: 50%;
 }
 body{
-    background-image:url ;
-    background-repeat:no-repeat ;
-    background-size:cover ;
-    background-color: greenyellow;
+    background-color: lightcyan;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
 }
-p{
-    text-indent:20px;
-    text-align: justify;
-    text-transform: capitalize;
-    word-spacing: 5px;
-    list-style-type: none;
-    color:gold;
-}
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 0%;
-    border: 5px solid red;
-    size:auto;
-    
-}
-h2{
-    color:rgb(20, 14, 14);
-    
-    text-align:center ;
-    text-decoration:rgb(172, 149, 16) underline;
-    text-transform: uppercase;
-    text-shadow:rgb(181, 221, 120) 2px 2px 5px;
-    font-style: italic;
-    font-size: 75;
-    text-shadow: 50%;
+.prifile-card{
+             padding: 30px;
+             border-radius: 12px;
+             background: #fff;
+             box-shadow: 0 0 12px rgba(0,0,0,0,2);
+             text-align: center;
+             width: 350px;
+ } 
+           img{
+               width: 150px;
+               height: 150px;
+              object-fit: cover;
+              border-radius: 10px;
+              border: 3px solid darkblue;
+              margin-bottom:15px;
 
+                }
+.prifile-card h1{
+                color:darkblue;
+                margin-bottom: 20px;
+                } 
+.prifile-card p {
+               font-size: 16px;
+               margin: 6px 0;
+}
+.prifile-card span {
+    font-weight: bold;
+}
+
+.hobbies {
+    margin-top: 12px;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies li {
+    margin: 4px 0;
 }
